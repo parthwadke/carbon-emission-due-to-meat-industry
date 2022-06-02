@@ -20,7 +20,7 @@ def home(request):
     data = dict(
         type = 'choropleth',
         colorscale='Reds',
-        # reversescale = True,
+        #reversescale = True,
         locations = world['Area'],
         locationmode = "country names",
         z = world['Value'],
